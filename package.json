@@ -1,24 +1,35 @@
 {
-  "name": "my-app",
+  "name": "job-matcher-gatsby",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "description": "job-matcher-gatsby",
+  "author": "AmanKumarVerma11",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "dependencies": {
-    "expo": "~49.0.15",
-    "expo-status-bar": "~1.6.0",
-    "react": "18.2.0",
-    "react-native": "0.72.6",
-    "react-native-web": "~0.19.6",
-    "react-dom": "18.2.0",
-    "@expo/webpack-config": "^19.0.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mdx-js/react": "^3.0.0",
+    "gatsby": "^5.13.0",
+    "gatsby-plugin-emotion": "^8.13.0",
+    "gatsby-plugin-google-gtag": "^5.13.0",
+    "gatsby-plugin-image": "^3.13.0",
+    "gatsby-plugin-manifest": "^5.13.0",
+    "gatsby-plugin-mdx": "^5.13.0",
+    "gatsby-plugin-sharp": "^5.13.0",
+    "gatsby-plugin-sitemap": "^6.13.0",
+    "gatsby-source-filesystem": "^5.13.0",
+    "gatsby-transformer-remark": "^6.13.0",
+    "gatsby-transformer-sharp": "^5.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
